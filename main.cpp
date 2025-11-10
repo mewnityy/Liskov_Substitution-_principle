@@ -17,6 +17,9 @@ int main()
    // 3 
    manager_ptr->demoOfGoodRectProcess();
    manager_ptr->demoOfGoodSquareProcess();
+
+   // 4
+   manager_ptr->demoOfGoodTriangleProcess();
    
    // Finish: 
    cout << "\n\nFinish program.";
