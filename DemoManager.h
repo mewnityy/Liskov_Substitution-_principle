@@ -31,4 +31,10 @@ public:
         Square_LCP square(10);
         _service.processPolygon("Square", &square);
     }
+
+ void demoOfGoodTriangleProcess() {
+        cout << "\n> just really good triangle process: " << endl;
+        Triangle_LSP triangle(10, 5);
+        _service.processPolygon("Triangle", &triangle);
+    }
 };
